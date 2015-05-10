@@ -24,3 +24,6 @@ legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_
 
 plot(d$datetime, d$Global_reactive_power, type="n", xlab = "", ylab = "Global_reactive_power")
 lines(d$datetime, d$Global_reactive_power, type = "l")
+
+dev.off()
+

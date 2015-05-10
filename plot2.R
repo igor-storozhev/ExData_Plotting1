@@ -8,3 +8,6 @@ d$datetime <- strptime(paste(d$Date, d$Time), "%d/%m/%Y %H:%M:%S")
 plot(d$datetime, d$Global_active_power, type="n", xlab = "", ylab = "Global Active Power (kilowatts)")
 
 lines(d$datetime, d$Global_active_power, type = "l")
+
+dev.off()
+
